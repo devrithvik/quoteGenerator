@@ -1,4 +1,4 @@
-# quoteGenerator
+# quoteGenerator and quoteTweeter!
 
 Used JAVASCRIPT for scripting. |
 Used HTML  for skeleton |
