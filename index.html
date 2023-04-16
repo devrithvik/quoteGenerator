@@ -6,14 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <script src="https://cdn.tailwindcss.com"></script>
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-    <title>Document</title>
+     <title>Document</title>
 </head>
-<body class="m-0">
+<body class="">
 
     
-    
-    <div class="">rihtugifbkjcs</div>
-
+    <div class="flex flex-col grow place-items-center h-screen bg-slate-600 px-10 sm:p-auto">
+        <h1 class=" text-3xl my-3 text-teal-400 font-thin">Enjoy the Quotes!</h1>
+    <div class=" p-2 bg-gray-200 shadow-lg rounded-lg flex flex-col sm:w-1/2 h-fit" id="quote-container">
+        <div class="quote">
+              <i class="fas fa-quote-left text-2xl mr-1 justify-center" id="icon"></i>
+             <span id="quote-text" class="text-sm antialised font-light mx-2  "></span>
+        </div>
+        <span class="self-end text-lg italic font-thin antialised  mb-2" id="author"></span>
+        <div class="flex justify-between px-4">
+        <button class=" hover:bg-gray-300 rounded-full w-7 h-7" id="twitter" title="Tweet this!">
+            <i class="fa-brands fa-twitter " style="color: #14161a;"></i>
+        </button>
+         
+        <button id="next-quote" class=" text-gray-100 text-xs bg-teal-500 font-thin rounded-md px-1 hover:bg-gray-300 hover:text-gray-500  ">
+            Next
+            </button>
+        </div>              
+    </div>
+    <div>
+    <div class="mt-10 lenging-5 text-xl  text-slate-600 bg-white px-5 rounded-md py-1 shadow-md antialised">
+        ▶︎ Press the Twitter button for tweeting it instantly. 
+     </div>
+    <div class="mt-10 lenging-5 text-xl text-slate-600 bg-white px-5 rounded-md py-1 shadow-md antialised">
+        
+        ▶︎ Press the next button for next quote.
+    </div>
+</div>
+</div>   
 
 
     
